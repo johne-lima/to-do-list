@@ -1,4 +1,6 @@
 /* GERAL */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +14,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(90deg, #470f75, #6f1ff0, #a441f5);
+    background-image: linear-gradient(90deg, #020535, #0e0d3d, rgb(2, 8, 41))
 }
 
 button {
@@ -61,11 +63,16 @@ input, select {
     border-radius: 15px;
 }
 
-.todo-container header {
+.todo-container header h1{
+    font-family: "Anton";
+    font-size: 3rem;
+    color: #032d6d;
     text-align: center;
     padding: 0 1rem 1rem;
     border-bottom: 1px solid #ccc;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 4px 5px #bbb;
 }
 
 /* TO DO FORM*/
@@ -151,11 +158,12 @@ input, select {
 }
 
 .done {
-    background-color: #395169;
+    background-color: #173b5e;
 }
 
 .done h3 {
     color: #fff;
     text-decoration: line-through;
     font-style: italic;
+    font-size: 1rem;
 }
