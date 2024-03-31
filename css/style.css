@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100vh;
+}
+
 body {
     background-image: linear-gradient(90deg, #470f75, #6f1ff0, #a441f5);
 }
